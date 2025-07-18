@@ -1,6 +1,6 @@
 {
   "configVersion": 1,
-  "timestamp": 1752832947008,
+  "timestamp": 1752833122956,
   "index": "/game-app/index.html",
   "assetGroups": [
     {
@@ -11,10 +11,8 @@
         "ignoreVary": true
       },
       "urls": [
-        "/game-app/favicon.ico",
         "/game-app/index.html",
         "/game-app/main-CHFX72L7.js",
-        "/game-app/manifest.webmanifest",
         "/game-app/polyfills-FFHMD2TL.js",
         "/game-app/styles-C7JOU37E.css"
       ],
@@ -27,33 +25,14 @@
       "cacheQueryOptions": {
         "ignoreVary": true
       },
-      "urls": [
-        "/game-app/icons/icon-128x128.png",
-        "/game-app/icons/icon-144x144.png",
-        "/game-app/icons/icon-152x152.png",
-        "/game-app/icons/icon-192x192.png",
-        "/game-app/icons/icon-384x384.png",
-        "/game-app/icons/icon-512x512.png",
-        "/game-app/icons/icon-72x72.png",
-        "/game-app/icons/icon-96x96.png"
-      ],
+      "urls": [],
       "patterns": []
     }
   ],
   "dataGroups": [],
   "hashTable": {
-    "/game-app/favicon.ico": "9c39f434fe1261f68c5e3eefdf734630d99c5670",
-    "/game-app/icons/icon-128x128.png": "f912963bdc6d5a38d8f1dd0afbaab2ce8d657acb",
-    "/game-app/icons/icon-144x144.png": "b155fd5f2fd5d2ea7760721063003c4cd95fd783",
-    "/game-app/icons/icon-152x152.png": "eae6e0f0c8afb8aaae339e2a569b43e9238e5e6c",
-    "/game-app/icons/icon-192x192.png": "15c4180454633880d98674aa7394656196c91584",
-    "/game-app/icons/icon-384x384.png": "94a915751ef6c9282df9aea405ad679230631814",
-    "/game-app/icons/icon-512x512.png": "1de182f76f7329dfa8f9fcdd1fdcdd695bea6a99",
-    "/game-app/icons/icon-72x72.png": "aa88a6096bd973be7f6d7a5489bfa6bc2463f8c4",
-    "/game-app/icons/icon-96x96.png": "7fb8f59c30ce2ff12c700321a0b39e14b3dc8f95",
     "/game-app/index.html": "ee079879dfdbefcb5f3045d78696411792ee6b29",
     "/game-app/main-CHFX72L7.js": "dedcf7aaf5a4a793f2944df2175830a127bda34e",
-    "/game-app/manifest.webmanifest": "0ae8f9de1873cab2d65b218d16f81162e5c3b435",
     "/game-app/polyfills-FFHMD2TL.js": "f49b49a155bc7d192db62a4c15d0a612b460a667",
     "/game-app/styles-C7JOU37E.css": "df826d4157667e736d0b46a8d13c56451eb75bfe"
   },
