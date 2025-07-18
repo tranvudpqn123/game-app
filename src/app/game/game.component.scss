@@ -1,0 +1,80 @@
+
+
+:host {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+}
+
+.game-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  min-width: 340px;
+  min-height: 340px;
+  background: linear-gradient(135deg, #e0f7fa 60%, #fffde7 100%);
+  border: 3px solid #00bcd4;
+  border-radius: 20px;
+  box-shadow: 0 4px 24px rgba(0,0,0,0.08);
+  padding: 32px 24px;
+}
+
+.game-container h2 {
+  font-size: 2.2rem;
+  color: #009688;
+  font-weight: bold;
+  margin-bottom: 16px;
+}
+
+.game-container p {
+  font-size: 1.25rem;
+  color: #333;
+  margin: 8px 0;
+}
+
+.choices {
+  margin-bottom: 24px;
+  margin-top: 30px;
+}
+
+.choices button {
+  width: 60px;
+  height: 60px;
+  margin: 0 8px;
+  font-weight: bold;
+  border-radius: 10px;
+  border: 2px solid #333;
+  font-size: 1.3rem;
+  cursor: pointer;
+  transition: box-shadow 0.2s;
+}
+.choices button:nth-child(1) {
+  background-color: #4caf50; /* xanh lá */
+  color: #fff;
+}
+.choices button:nth-child(2) {
+  background-color: #2196f3; /* xanh dương */
+  color: #fff;
+}
+.choices button:nth-child(3) {
+  background-color: #ffeb3b; /* vàng */
+  color: #333;
+}
+.choices button:hover {
+  box-shadow: 0 0 8px #888;
+}
+
+.game-container .message-win {
+  color: #4caf50;
+  font-weight: bold;
+}
+.game-container .message-lose {
+  color: #f44336;
+  font-weight: bold;
+}
+.game-container .message-draw {
+  color: #ff9800;
+  font-weight: bold;
+}

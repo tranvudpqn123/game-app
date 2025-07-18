@@ -1,0 +1,29 @@
+<div class="game-container">
+    <h2>Kéo Búa Bao</h2>
+    <p>Điểm của bạn: {{ score }}</p>
+
+    @if (!isGameOver) {
+        <p>Chọn một trong ba:</p>
+        <div class="choices">
+            @for (c of choices; track c.value) {
+                <button (click)="play(c.value)">{{ c.label }}</button>
+            }
+        </div>
+        @if (userChoice !== null) {
+            <p>Bạn chọn: {{ userChoiceLabel }}</p>
+            <p>Hệ thống chọn: {{ systemChoiceLabel }}</p>
+            <p [ngClass]="{
+              'message-win': message === 'Bạn thắng!',
+              'message-lose': message === 'Bạn thua!',
+              'message-draw': message === 'Hoà!'
+            }">{{ message }}</p>
+        }
+    } @else {
+    <p [ngClass]="{
+      'message-win': message.includes('thắng'),
+      'message-lose': message.includes('thua'),
+      'message-draw': message === 'Hoà!'
+    }">{{ message }}</p>
+    <button (click)="resetGame()">Chơi lại</button>
+    }
+</div>
